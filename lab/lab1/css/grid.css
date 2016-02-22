@@ -3,11 +3,13 @@
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+  border-style: dotted;
   max-width: 960px;
 }
 
 .row {
   margin: 0;
+  border-style: solid;
 }
 
 .row:after {
@@ -20,6 +22,7 @@
   width: 100%;
   float: left;
   padding: 20px;
+  border-style: double;
 }
 
 .column-one-half, .column-two-quarters {
